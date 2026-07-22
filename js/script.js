@@ -20,7 +20,7 @@ class Pizza {
         this.instructions = instructions;
     }
 
-    // Method that builds and returns the pizza order 
+    // Method that builds and returns the order 
     getDescription() {
         var toppingText = "";
 
