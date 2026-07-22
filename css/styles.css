@@ -1,0 +1,139 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fb;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 750px;
+    margin: 25px auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: #c1121f;
+    padding: 22px;
+    border: 5px solid #003049;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #003049;
+    text-align: center;
+}
+
+#studentInfo {
+    text-align: center;
+    font-weight: bold;
+    color: #003049;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #003049;
+}
+
+/* Pizza photo */
+.pizza-photo {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: 280px;
+    margin: 15px auto;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #003049;
+}
+
+section {
+    background-color: white;
+    padding: 22px;
+    margin-top: 20px;
+    border: 2px solid #003049;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    color: #003049;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    border: 1px solid #003049;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 80px;
+}
+
+fieldset {
+    margin-top: 18px;
+    border: 1px solid #c1121f;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #f9fbff;
+}
+
+legend {
+    color: #c1121f;
+    font-weight: bold;
+}
+
+fieldset label {
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+fieldset input {
+    width: auto;
+    margin-right: 6px;
+}
+
+button {
+    margin-top: 22px;
+    padding: 12px;
+    width: 100%;
+    background-color: #003049;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c1121f;
+}
+
+#orderOutput {
+    font-size: 18px;
+    line-height: 1.6;
+    white-space: pre-line;
+    color: #003049;
+    background-color: #f9fbff;
+    padding: 15px;
+    border-left: 5px solid #c1121f;
+    border-radius: 8px;
+}
+
+/* Smaller photo on phone screen */
+@media screen and (max-width: 600px) {
+    .pizza-photo {
+        height: 180px;
+    }
+}
